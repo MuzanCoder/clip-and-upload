@@ -2,11 +2,10 @@ import { Camera, Upload, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 interface HeaderProps {
-  onUploadClick: () => void;
   totalFiles: number;
 }
 
-const Header = ({ onUploadClick, totalFiles }: HeaderProps) => {
+const Header = ({ totalFiles }: HeaderProps) => {
   return (
     <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-40">
       <div className="container mx-auto px-6 py-4">
@@ -17,16 +16,12 @@ const Header = ({ onUploadClick, totalFiles }: HeaderProps) => {
             </div>
             <div>
               <h1 className="text-xl font-bold">MediaShare</h1>
-              <p className="text-sm text-muted-foreground">Upload & Download Hub</p>
+              <p className="text-sm text-muted-foreground">Gallery & Download Hub</p>
             </div>
           </div>
 
           <div className="flex items-center space-x-4">
             <div className="hidden md:flex items-center space-x-6 text-sm text-muted-foreground">
-              <div className="flex items-center space-x-2">
-                <Upload className="w-4 h-4" />
-                <span>Upload</span>
-              </div>
               <div className="flex items-center space-x-2">
                 <Download className="w-4 h-4" />
                 <span>Download</span>
@@ -36,14 +31,6 @@ const Header = ({ onUploadClick, totalFiles }: HeaderProps) => {
                 <span>files</span>
               </div>
             </div>
-            
-            <Button 
-              onClick={onUploadClick}
-              className="bg-gradient-primary hover:opacity-90 shadow-elegant"
-            >
-              <Upload className="w-4 h-4 mr-2" />
-              Upload Media
-            </Button>
           </div>
         </div>
       </div>
