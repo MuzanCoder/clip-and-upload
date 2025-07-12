@@ -2,28 +2,30 @@ import { useState, useRef } from 'react';
 import { ArrowDown } from 'lucide-react';
 import Header from '@/components/Header';
 import UploadArea from '@/components/UploadArea';
-import MediaGallery from '@/components/MediaGallery';
-
-interface MediaItem {
-  id: string;
-  file: File;
-  url: string;
-  type: 'image' | 'video';
-  uploadDate: Date;
-}
+import MediaGallery, { MediaItem } from '@/components/MediaGallery';
+import { sampleMediaItems } from '@/data/sampleMedia';
 
 const Index = () => {
-  const [mediaItems, setMediaItems] = useState<MediaItem[]>([]);
+  // Initialize with sample data to create a Pinterest-like experience
+  const [mediaItems, setMediaItems] = useState<MediaItem[]>(sampleMediaItems);
   const uploadRef = useRef<HTMLDivElement>(null);
   const galleryRef = useRef<HTMLDivElement>(null);
 
   const handleFilesUploaded = (files: File[]) => {
     const newItems: MediaItem[] = files.map(file => ({
       id: Math.random().toString(36).substring(7),
-      file,
+      file: {
+        name: file.name,
+        size: file.size,
+        type: file.type
+      },
       url: URL.createObjectURL(file),
       type: file.type.startsWith('image/') ? 'image' : 'video',
-      uploadDate: new Date()
+      uploadDate: new Date(),
+      title: file.name.replace(/\.[^/.]+$/, ""), // Remove file extension for title
+      author: 'You',
+      likes: 0,
+      downloads: 0
     }));
     
     setMediaItems(prev => [...newItems, ...prev]);
