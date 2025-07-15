@@ -126,5 +126,35 @@ export const sampleMediaItems: MediaItem[] = [
     author: 'wallos',
     likes: 445,
     downloads: 167
-  }
+  },
+  {
+    id: '9',
+    file: {
+      name: 'lord-shiva-wallpaper.jpg',
+      size: 2098765,
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/SxfSHTSC/Whats-App-Image-2025-07-14-at-23-27-47-380eaeb3.jpg',
+    type: 'image',
+    uploadDate: new Date('2023-12-28'),
+    title: 'lord-shiva-wallpaper',
+    author: 'wallos',
+    likes: 445,
+    downloads: 167
+  },
+  {
+    id: '11',
+    file: {
+      name: 'WhatsApp-Image-2025-07-14-at-23-33-39.jpg',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/s2JM9fGF/Whats-App-Image-2025-07-14-at-23-38-29-a1ee0d33.jpg',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Lord Shiva Cosmic Art',
+    author: 'wallos',
+    likes: 999,
+    downloads: 400
+  }  
   ];
