@@ -114,13 +114,17 @@ export const sampleMediaItems: MediaItem[] = [
   },
   {
     id: '9',
-    file: { name: 'https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjg3M2Q4YTk0MWYwODE5MTk1YTlkMmQyZmJkNTQ0NWI6ZmlsZV8wMDAwMDAwMDkxMGM2MWY2OWU1Yjg5ZGIzMmUyMGE5YyIsInRzIjoiNDg2Nzg1IiwicCI6InB5aSIsInNpZyI6ImJhNTY4ODY2ZmE0NWY4YjJkN2QzNjA3MzA2ZmUwMDdhOGQxYTRjZmM4NjdmNjgzZGNlZGU2NmFjZDkwNjFlNmMiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ==', size: 2098765, type: 'image/jpeg' },
-    url: "",
+    file: {
+      name: 'anime-style-wallpaper.jpg',
+      size: 2098765,
+      type: 'image/jpeg'
+    },
+    url: 'https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjg3M2Q4YTk0MWYwODE5MTk1YTlkMmQyZmJkNTQ0NWI6ZmlsZV8wMDAwMDAwMDkxMGM2MWY2OWU1Yjg5ZGIzMmUyMGE5YyIsInRzIjoiNDg2Nzg1IiwicCI6InB5aSIsInNpZyI6ImJhNTY4ODY2ZmE0NWY4YjJkN2QzNjA3MzA2ZmUwMDdhOGQxYTRjZmM4NjdmNjgzZGNlZGU2NmFjZDkwNjFlNmMiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ==',
     type: 'image',
     uploadDate: new Date('2023-12-28'),
-    title:  'Anime Style Wallpaper',
+    title: 'Anime Style Wallpaper',
     author: 'wallos',
     likes: 445,
     downloads: 167
   }
-];
+  ];
