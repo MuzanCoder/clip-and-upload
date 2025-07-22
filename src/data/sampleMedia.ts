@@ -156,5 +156,245 @@ export const sampleMediaItems: MediaItem[] = [
     author: 'wallos',
     likes: 999,
     downloads: 400
-  }  
+  },
+  {
+    id: '12',
+    file: {
+      name: 'Lord-Shiva-Cosmic-Art.jpg',
+      size: 2098765,
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/SNt7CdFL/Whats-App-Image-2025-07-14-at-23-33-39-3b7f2bc7.jpg',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Lord Shiva Cosmic Art',
+    author: 'wallos',
+    likes: 999,
+    downloads: 600
+  },
+  {
+    id: '13',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/44zZFfwd/e99cefce-2a3f-4aea-9375-e2d117cf6932.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Sand picture',
+    author: 'wallos',
+    likes: 778,
+    downloads: 600
+  },
+  {
+    id: '15',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/63P7j9hz/217d4351-e607-4166-8a5c-53d34efb66ae.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Moon',
+    author: 'wallos',
+    likes: 300,
+    downloads: 700
+  },
+  {
+    id: '16',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/L5Tjydns/8336b7ef-dfa6-466f-95c2-2b187aa941f1-1.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Temple photo',
+    author: 'wallos',
+    likes: 500,
+    downloads: 900
+  },
+  {
+    id: '17',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/4xrHQ4B5/2d2408f3-41d6-4166-a553-e3334458e6c3.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Hands photo',
+    author: 'wallos',
+    likes: 700,
+    downloads: 450
+  },
+  {
+    id: '18',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/c12WHKHX/8b24fe17-71b4-42bd-857d-fa3301168aa7.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Hands Ai arts',
+    author: 'wallos',
+    likes: 700,
+    downloads: 450
+  },
+  {
+    id: '19',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/6qwm2Nk6/2df64d41-2c63-45be-b46d-a50a8a10fe29.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Chess Ai arts',
+    author: 'wallos',
+    likes: 756,
+    downloads: 400
+  },
+  {
+    id: '20',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/zBDhVtdZ/Chat-GPT-Image-Jul-22-2025-10-37-22-AM.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'King',
+    author: 'wallos',
+    likes: 756,
+    downloads: 460
+  },
+  {
+    id: '21',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/tTg1X1T9/Chat-GPT-Image-Jul-22-2025-10-39-16-AM.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Horse',
+    author: 'wallos',
+    likes: 456,
+    downloads: 320
+  },
+  {
+    id: '22',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/QM8kvk2t/Chat-GPT-Image-Jul-22-2025-10-41-00-AM.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Horse',
+    author: 'wallos',
+    likes: 667,
+    downloads: 343
+  },
+  {
+    id: '23',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/vBqs5hs6/Chat-GPT-Image-Jul-22-2025-10-54-19-AM-1.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Tendulkar Bat',
+    author: 'wallos',
+    likes: 2000,
+    downloads: 1500
+  },
+  {
+    id: '24',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/DwPy8q81/Chat-GPT-Image-Jul-22-2025-10-57-38-AM.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Tendulkar',
+    author: 'wallos',
+    likes: 4000,
+    downloads: 1800
+  },
+  {
+    id: '25',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/WpZVdMyt/Chat-GPT-Image-Jul-22-2025-10-59-05-AM.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Krish',
+    author: 'wallos',
+    likes: 900,
+    downloads: 200
+  },
+  {
+    id: '26',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/WpZVdMyt/Chat-GPT-Image-Jul-22-2025-10-59-05-AM.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'Krish',
+    author: 'wallos',
+    likes: 900,
+    downloads: 200
+  },
+  {
+    id: '27',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/sDfTkz5y/Chat-GPT-Image-Jul-22-2025-11-00-39-AM-1.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'SnakeKing',
+    author: 'wallos',
+    likes: 700,
+    downloads: 300
+  },
+  {
+    id: '28',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/sDfTkz5y/Chat-GPT-Image-Jul-22-2025-11-00-39-AM-1.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-14'),
+    title: 'SuperMan',
+    author: 'wallos',
+    likes: 200,
+    downloads: 50
+  }
   ];
