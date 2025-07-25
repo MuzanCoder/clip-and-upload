@@ -353,36 +353,6 @@ export const sampleMediaItems: MediaItem[] = [
     downloads: 200
   },
   {
-    id: '26',
-    file: {
-      name: 'images',
-      size: 2098765, // approximate size in bytes
-      type: 'image/jpeg'
-    },
-    url: 'https://i.postimg.cc/WpZVdMyt/Chat-GPT-Image-Jul-22-2025-10-59-05-AM.png',
-    type: 'image',
-    uploadDate: new Date('2025-07-14'),
-    title: 'Krish',
-    author: 'wallos',
-    likes: 900,
-    downloads: 200
-  },
-  {
-    id: '27',
-    file: {
-      name: 'images',
-      size: 2098765, // approximate size in bytes
-      type: 'image/jpeg'
-    },
-    url: 'https://i.postimg.cc/sDfTkz5y/Chat-GPT-Image-Jul-22-2025-11-00-39-AM-1.png',
-    type: 'image',
-    uploadDate: new Date('2025-07-14'),
-    title: 'SnakeKing',
-    author: 'wallos',
-    likes: 700,
-    downloads: 300
-  },
-  {
     id: '28',
     file: {
       name: 'images',
@@ -392,9 +362,145 @@ export const sampleMediaItems: MediaItem[] = [
     url: 'https://i.postimg.cc/sDfTkz5y/Chat-GPT-Image-Jul-22-2025-11-00-39-AM-1.png',
     type: 'image',
     uploadDate: new Date('2025-07-14'),
-    title: 'SuperMan',
+    title: 'NaagRaaj',
     author: 'wallos',
     likes: 200,
     downloads: 50
+  },
+  {
+    id: '29',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/9FGNjn8X/ada58f72-101e-4712-aa97-9f88a39fc84e.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-25'),
+    title: 'Super Commando Dhruv',
+    author: 'Super Commando dhruv',
+    likes: Math.floor(Math.random() * 400) + 100,     // Random between 100–499
+    downloads: Math.floor(Math.random() * 100) + 20   // Random between 20–119
+  },
+  {
+    id: '30',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/8P5s22PM/d57b85d5-a95b-48f3-803c-b6f7f2dd68da.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-25'),
+    title: 'DOGA',
+    author: 'DOGA',
+    likes: Math.floor(Math.random() * 400) + 100,     // Random between 100–499
+    downloads: Math.floor(Math.random() * 100) + 20   // Random between 20–119
+  },
+  {
+    id: '31',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/j2nmNq4y/4695ca47-0b25-46c0-be1a-7b473eeb0066.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-25'),
+    title: 'SuperHero',
+    author: 'SuperHero',
+    likes: Math.floor(Math.random() * 400) + 100,     // Random between 100–499
+    downloads: Math.floor(Math.random() * 100) + 20   // Random between 20–119
+  },
+  {
+    id: '32',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/VkkTBFgY/e091ce7e-bfbc-4b6c-9180-91f8c9a0faf9.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-25'),
+    title: 'BHeriya',
+    author: 'BHeriya',
+    likes: Math.floor(Math.random() * 400) + 100,     // Random between 100–499
+    downloads: Math.floor(Math.random() * 100) + 20   // Random between 20–119
+  },
+  {
+    id: '33',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/m2JM8LNt/c83d6d3b-de55-439b-a3be-f5e8861c7710.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-25'),
+    title: 'Bhavesh Joshi',
+    author: 'Bhavesh Joshi',
+    likes: Math.floor(Math.random() * 400) + 100,     // Random between 100–499
+    downloads: Math.floor(Math.random() * 100) + 20   // Random between 20–119
+  },
+  {
+    id: '34',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/VvMShMFv/a037b5c6-f4f0-4dbc-9e5d-a131e57a50f4.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-25'),
+    title: 'mountains',
+    author: 'mountains',
+    likes: Math.floor(Math.random() * 400) + 100,     // Random between 100–499
+    downloads: Math.floor(Math.random() * 100) + 20   // Random between 20–119
+  },
+  {
+    id: '35',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/V6ZBwjMF/720d6029-3f8a-4aba-892d-84f5757b54d3.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-25'),
+    title: 'Cyber Warrior Rise',
+    author: 'wallos',
+    likes: Math.floor(Math.random() * (10000 - 700 + 1)) + 700,       // Random between 700–10000
+    downloads: Math.floor(Math.random() * (10000 - 700 + 1)) + 700    // Random between 700–10000
+  },
+  {
+    id: '36',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/NjN1m6Cv/56e475d1-6b0e-41b1-8f4b-0071d68ecd30.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-25'),
+    title: 'Cyber Warrior Rise',
+    author: 'wallos',
+    likes: Math.floor(Math.random() * (10000 - 700 + 1)) + 700,       // Random between 700–10000
+    downloads: Math.floor(Math.random() * (10000 - 700 + 1)) + 700    // Random between 700–10000
+  },
+  {
+    id: '37',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/J7fm7SR9/ffdf8a54-4058-4aa5-9759-d4d83c908590.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-25'),
+    title: 'Futuristic Cityscape',
+    author: 'WallOs',
+    likes: Math.floor(Math.random() * (10000 - 700 + 1)) + 700,       // Random between 700–10000
+    downloads: Math.floor(Math.random() * (10000 - 700 + 1)) + 700    // Random between 700–10000
   }
+       
   ];
