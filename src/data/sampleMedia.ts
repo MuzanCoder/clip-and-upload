@@ -501,6 +501,37 @@ export const sampleMediaItems: MediaItem[] = [
     author: 'WallOs',
     likes: Math.floor(Math.random() * (10000 - 700 + 1)) + 700,       // Random between 700–10000
     downloads: Math.floor(Math.random() * (10000 - 700 + 1)) + 700    // Random between 700–10000
+  },
+  {
+    id: '37',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/dVMKZRW7/e61f17f4-6fd2-4906-84d5-31a135371951.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-25'),
+    title: 'Blazing Guardian of Light',
+    author: 'Unknown',
+    likes: Math.floor(Math.random() * (10000 - 700 + 1)) + 700,
+    downloads: Math.floor(Math.random() * (10000 - 700 + 1)) + 700
+  },
+  {
+    id: '38',
+    file: {
+      name: 'images',
+      size: 2098765, // approximate size in bytes
+      type: 'image/jpeg'
+    },
+    url: 'https://i.postimg.cc/xdz5JH4d/42630d3f-4c32-4b67-bd33-b8c3aaad07d7-2.png',
+    type: 'image',
+    uploadDate: new Date('2025-07-25'),
+    title: 'Kargil war',
+    author: 'wallos',
+    likes: Math.floor(Math.random() * (10000 - 700 + 1)) + 700,
+    downloads: Math.floor(Math.random() * (10000 - 700 + 1)) + 700
   }
+  
        
   ];
